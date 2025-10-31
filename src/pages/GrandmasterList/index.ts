@@ -1,0 +1,1 @@
+export { GrandmasterList } from './GrandmasterList';

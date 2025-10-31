@@ -1,0 +1,1 @@
+export { GrandmasterCard } from './GrandmasterCard';

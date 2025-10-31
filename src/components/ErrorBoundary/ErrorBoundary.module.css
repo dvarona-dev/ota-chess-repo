@@ -1,0 +1,70 @@
+/* Mobile First: 375px base */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.375rem;
+  margin-bottom: 0.75rem;
+  color: #ef4444;
+}
+
+.message {
+  font-size: 0.875rem;
+  margin-bottom: 1.25rem;
+  color: #888;
+  max-width: 500px;
+}
+
+.button {
+  padding: 0.625rem 1.25rem;
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #16a34a;
+}
+
+/* Tablet: 768px */
+@media (min-width: 768px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .message {
+    font-size: 0.9375rem;
+  }
+
+  .button {
+    font-size: 0.9375rem;
+  }
+}
+
+/* Desktop: >1240px */
+@media (min-width: 1240px) {
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .message {
+    font-size: 1rem;
+  }
+}

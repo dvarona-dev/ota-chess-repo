@@ -1,0 +1,1 @@
+export { GrandmasterProfile } from './GrandmasterProfile';
